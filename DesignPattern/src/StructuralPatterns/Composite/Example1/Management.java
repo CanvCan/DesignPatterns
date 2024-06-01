@@ -1,4 +1,4 @@
-package StructuralPatterns.Composite;
+package StructuralPatterns.Composite.Example1;
 
 import java.util.ArrayList;
 
