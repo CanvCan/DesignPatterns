@@ -1,6 +1,6 @@
 package StructuralPatterns.Composite.Example1;
 
-public interface CompanyComposite {
+public interface Company {
 	
 	public int cost();
 

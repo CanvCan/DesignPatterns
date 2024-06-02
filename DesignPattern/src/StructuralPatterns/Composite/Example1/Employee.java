@@ -1,6 +1,6 @@
 package StructuralPatterns.Composite.Example1;
 
-public class Employee implements CompanyComposite{
+public class Employee implements Company{
 	
 	public String name;
 	public int salary;
