@@ -1,4 +1,4 @@
 Employee ----> Leaf class
 Management ----> Composite class
-CompanyComposite ----> Component interface
+Company ----> Component interface
 Application1 ----> Client class
