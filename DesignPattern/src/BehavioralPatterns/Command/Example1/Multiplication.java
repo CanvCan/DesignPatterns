@@ -1,4 +1,4 @@
-package BehavioralPatterns.Command;
+package BehavioralPatterns.Command.Example1;
 
 public class Multiplication implements Command {
 	

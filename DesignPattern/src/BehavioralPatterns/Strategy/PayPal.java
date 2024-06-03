@@ -13,7 +13,8 @@ public class PayPal implements PaymentStrategy {
 	
 	 @Override
     public void pay(double amount) {
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
         boolean useBonus = false;
 
         while (true) {
