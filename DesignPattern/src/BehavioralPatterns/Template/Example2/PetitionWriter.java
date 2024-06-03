@@ -19,7 +19,7 @@ public abstract class PetitionWriter {
     // Concrete method
     private void writeDate() {
     	LocalDateTime currentTime = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDateTime = currentTime.format(formatter);
         System.out.println(formattedDateTime);
     }
