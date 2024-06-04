@@ -1,6 +1,6 @@
 package BehavioralPatterns.Command.Example3;
 
-public class CommandPatternExample {
+public class Application3 {
     public static void main(String[] args) {
         TextEditor editor = new TextEditor();
         CommandManager manager = new CommandManager();
